@@ -1,0 +1,16 @@
+.app-container {
+  background-color: #121720;
+  min-height: 100vh;
+  padding: 40px;
+  text-align: center;
+}
+
+.main-heading {
+  color: #05acff;
+  font-family: 'Roboto';
+}
+
+.slider-container {
+  text-align: center;
+  padding: 40px;
+}
