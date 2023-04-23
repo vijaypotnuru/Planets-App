@@ -1,21 +1,46 @@
-.planet-item {
-}
-
-.planet-img-container {
+.planet-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
-.planet-img {
-  width: 55%;
+.image {
+  width: 250px;
+  height: 250px;
 }
 
-.planet-name {
+@media screen and (min-width: 768px) {
+  .image {
+    width: 405px;
+    height: 292px;
+  }
+}
+
+.name {
   color: #f8fafc;
   font-family: 'Roboto';
+  font-size: 20px;
 }
 
-.planet-description {
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 32px;
+    margin-top: 40px;
+  }
+}
+
+.description {
+  text-align: center;
   color: #f1f5f9;
   font-family: 'Roboto';
+  font-size: 16px;
+  max-width: 800px;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
 }
